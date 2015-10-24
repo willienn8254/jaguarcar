@@ -1,0 +1,58 @@
+*	{ 
+
+	margin: 0;
+	padding: 0; 
+	}
+
+
+html{
+	
+    background: url("../img/car.jpg") no-repeat fixed center; 
+    background-size: cover;
+	}
+
+
+.info{
+
+		color: white;
+		background-color:rgba(0, 0, 0, 0.61);
+		border-radius: 5px;
+    	margin:100px 100px 10px 80px;
+		max-width: 600px; /*ancho maximo*/
+		padding: 20px;
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+
+a{ 
+
+		background-color: #DB3030;
+		color: white;
+		text-decoration: none;
+	    padding: 4px 12px;
+
+	}
+
+
+p{
+
+		margin-bottom: 20px;
+	}
+
+	
+
+@media(max-width:600px){
+
+	.info{
+	margin:100px 50px 1px 50px;
+
+	}	
+}
+
+
+
+
+
+
+
